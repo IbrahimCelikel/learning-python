@@ -1,0 +1,8 @@
+my_list = 1,"Fernando",True,3j
+print(my_list)
+
+list_of_lists = {1,2,3},{"a","b","c"}, {True,False}
+print(list_of_lists)
+
+print(len(my_list))
+print(len(list_of_lists))
