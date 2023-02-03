@@ -8,6 +8,7 @@ print(type(x))
 print(type(name))
 print(type(1.78))
 print(type(2j))
+print(type(?))
 
 surname = "Pasha"
 print(name+surname)
