@@ -1,8 +1,29 @@
-my_list = 1,"Fernando",True,3j
+my_list = [1,"Fernando",True,3j]
 print(my_list)
-
-list_of_lists = {1,2,3},{"a","b","c"}, {True,False}
-print(list_of_lists)
-
+print(type(my_list))
 print(len(my_list))
+
+list_of_lists = [{1,2,3},{"a","b","c"}, {True,False}]
+print(list_of_lists)
+print(type(list_of_lists))
 print(len(list_of_lists))
+
+my_set = {1,2,3,4,5}
+print(my_set)
+print(type(my_set))
+print(len(my_set))
+
+my_set2 = {1,1,2,2}
+print(my_set2)
+print(type(my_set2))
+print(len(my_set2))
+
+a = [1,2]
+b = [2,1]
+print(a==b)
+
+a_set = {1,2}
+b_set = {2,1}
+print(a_set==b_set)
+c_set = {1,1,2,1,2,1}
+print(a_set==c_set)
