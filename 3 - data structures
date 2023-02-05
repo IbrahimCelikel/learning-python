@@ -25,5 +25,20 @@ print(a==b)
 a_set = {1,2}
 b_set = {2,1}
 print(a_set==b_set)
+
 c_set = {1,1,2,1,2,1}
 print(a_set==c_set)
+
+my_tuple = (1,2,3)
+print(my_tuple)
+print(type(my_tuple))
+print(len(my_tuple))
+
+my_list.append("appended item")
+print(my_list)
+
+my_dictionary = {
+    "apple" : "a red fruit",
+    "messi" : "goat"
+}
+print(my_dictionary["apple"])
